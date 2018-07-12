@@ -1,0 +1,16 @@
+{
+  "name": "proxyify",
+  "version": "0.0.1",
+  "description": "todo",
+  "main": "proxyify.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [ "proxy", "event" ],
+  "author": "limfa@qq.com",
+  "license": "ISC",
+  "repository": "limfa/proxy",
+  "devDependencies": {
+    "jest": "^23.4.0"
+  }
+}
