@@ -1,6 +1,6 @@
 {
   "name": "proxyify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "todo",
   "main": "proxyify.js",
   "scripts": {

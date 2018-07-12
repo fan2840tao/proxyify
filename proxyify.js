@@ -4,6 +4,8 @@ function isDataObject (obj, parents = new Set()) {
   // 不允许嵌套
   if (parents.has(obj)) return false
   if (obj == null) return true
+  // 不正常的
+  if (!obj.constructor) return false
   const constructorName = obj.constructor.name
   if (!ALLOWS_CN[constructorName]) return false
   if (constructorName === 'Array' || constructorName === 'Object') {
